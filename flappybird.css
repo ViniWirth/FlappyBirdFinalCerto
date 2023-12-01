@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    background-image: url("./flappybirdbg.png");
+}
+
+#board {
+    border-radius: 1vw;
+    margin-top: 2vw;
+    border: solid black 0.15vw;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.377);
+}
+
+.logo{
+    width: 25vw;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
